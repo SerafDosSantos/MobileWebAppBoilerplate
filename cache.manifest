@@ -1,0 +1,31 @@
+CACHE MANIFEST
+# the above line is required
+
+# FROM THE W3C HTML5 RECOMMENDATION
+# - http://www.w3.org/TR/2011/WD-html5-20110525/offline.html#appcache
+
+# this is a comment
+# there can be as many of these anywhere in the file
+# they are all ignored
+  # comments can have spaces before them
+  # but must be alone on the line
+
+# blank lines are ignored too
+
+# these are files that need to be cached they can either be listed
+# first, or a "CACHE:" header could be put before them, as is done
+# lower down.
+img/*.png
+# note that each file has to be put on its own line
+
+# here is a file for the online whitelist -- it isn't cached, and
+# references to this file will bypass the cache, always hitting the
+# network (or trying to, if the user is offline).
+## NETWORK:
+## *.cgi
+
+# here is another set of files to cache.
+CACHE:
+home.html
+css/reset.css
+css/default.css

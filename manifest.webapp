@@ -1,0 +1,50 @@
+{
+    "name": "",
+    "description": "",
+    "launch_path": "/",
+    "version": "0.0",
+    "type": "web|privileged|certified",
+    "icons": {
+      "16": "/img/icons/icon_16.png",
+      "48": "/img/icons/icon_48.png",
+      "128": "/img/icons/icon_128.png"
+    },
+    "developer": {
+      "name": "",
+      "url": ""
+    },
+    "installs_allowed_from": [
+      "https://example.tld/"
+    ],
+    "appcache_path": "/cache.manifest",
+    "locales": [
+      "en": {
+        "description": "",
+        "developer": {
+          "url": ""
+        }
+      },
+      "es": {
+        "description": "",
+        "developer": {
+          "url": ""
+        }
+      },
+      "fr": {
+        "description": "",
+        "developer": {
+          "url": ""
+        }
+      }
+    ],
+    "default_locale": "en",
+    "screen_size": {
+      "min_width": "",
+      "min_height": ""
+    },
+    "required_features": [
+      "touch", "geolocation", "webgl"
+    ],
+    "orientation": "portrait-primary|landscape-primary|portrait-secondary|landscape-secondary|portrait|landscape",
+    "fullscreen": "true|false"
+  }
