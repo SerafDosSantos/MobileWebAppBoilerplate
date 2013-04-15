@@ -1,8 +1,7 @@
 MobileWebAppBoilerplate
 =======================
 
->> MIT License
->> (c) 2013 Serafim Junior Dos Santos Fagundes
+>> MIT License | (c) 2013 Serafim Junior Dos Santos Fagundes
 
 ---
 
@@ -16,17 +15,17 @@ Contains
 ========
 
 * Root Web App Files
-** Starter HTML5 Home File
-** Starter Web App Manifest File
-** Starter App Cache Manifest File
-** **ToDo:** Default App Icon Images
+  * Starter HTML5 Home File
+  * Starter Web App Manifest File
+  * Starter App Cache Manifest File
+  * **ToDo:** Default App Icon Images
 * Scripting Files
-** **ToDo:** Mobile jQuery
-** **ToDo:** (?Optional Mobile MVC?)
+  * Mobile jQuery
+  * **ToDo:** (?Optional Mobile MVC?)
 * StyleSheet Files
-** A CSS Reset File (from https://github.com/cssensei/HTML5---YUI-3-CSS-Reset)
-** **ToDo:** Mobile jQuery UI
-** **ToDo:** (?Optional Bootstrap?)
+  * A CSS Reset File (from https://github.com/cssensei/HTML5---YUI-3-CSS-Reset)
+  * Mobile jQuery UI Stylesheet
+  * **ToDo:** (?Optional Bootstrap?)
 
 Contributions
 =============
